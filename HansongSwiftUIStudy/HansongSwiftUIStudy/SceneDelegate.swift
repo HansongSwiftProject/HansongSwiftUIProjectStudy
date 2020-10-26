@@ -28,9 +28,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         
   //MARK: 1 Creating and Combining Views
-        let contentView = CreatingAndCombiningViews().environment(\.managedObjectContext, context)
+//        let contentView = CreatingAndCombiningViews().environment(\.managedObjectContext, context)
         
-
+//MARK: 1.
+        let contentView = LandmarkList().environment(\.managedObjectContext, context)
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)

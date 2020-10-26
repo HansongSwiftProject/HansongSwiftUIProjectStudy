@@ -10,11 +10,11 @@ import SwiftUI
 struct CreatingAndCombiningViews: View {
     var body: some View {
         VStack{
-            MapView()
+            MapView(coordinate: landmarkData[0].locationCoordinate)
                 .edgesIgnoringSafeArea(.top)
                 .frame(height:301.0)
             
-            CircleImage()
+            CircleImage(image: Image("turtlerock"))
                 .offset(x: 0, y: -130)
                 .padding(.bottom,-130)
             
