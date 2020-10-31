@@ -12,8 +12,7 @@ struct LandmarkList: View {
     
 //    @State var showFavoritesOnly = true
     var body: some View {
-        NavigationView {
-           
+//        NavigationView {
             List() {
                 Toggle(isOn: $userData.showFavoritesOnly) {
                     Text("Favorites only")
@@ -28,7 +27,7 @@ struct LandmarkList: View {
                 
             }
             .navigationTitle(Text("Landmarks"))
-        }
+//        }
        
     }
 }

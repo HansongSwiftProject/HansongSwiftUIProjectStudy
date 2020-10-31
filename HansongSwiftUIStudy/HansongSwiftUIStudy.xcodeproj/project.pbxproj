@@ -16,8 +16,12 @@
 		412B5F4C254570C000F8A8C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412B5F4A254570C000F8A8C0 /* LaunchScreen.storyboard */; };
 		412B5F57254570C000F8A8C0 /* HansongSwiftUIStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412B5F56254570C000F8A8C0 /* HansongSwiftUIStudyTests.swift */; };
 		412B5F62254570C000F8A8C0 /* HansongSwiftUIStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412B5F61254570C000F8A8C0 /* HansongSwiftUIStudyUITests.swift */; };
+		4169F0E92548504400EE2F4B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F0E82548504400EE2F4B /* Home.swift */; };
+		4169F0EE2548514A00EE2F4B /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169F0ED2548514A00EE2F4B /* CategoryRow.swift */; };
 		417F820E2546E8340016C8E2 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 417F820D2546E8340016C8E2 /* landmarkData.json */; };
 		417F82132546F0540016C8E2 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417F82122546F0540016C8E2 /* UserData.swift */; };
+		417F82192546F56F0016C8E2 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417F82182546F56F0016C8E2 /* Badge.swift */; };
+		417F82212546F5940016C8E2 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417F82202546F5940016C8E2 /* HexagonParameters.swift */; };
 		41BB673A2546AB0B0040D073 /* SmoothieRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB67392546AB0B0040D073 /* SmoothieRowView.swift */; };
 		41BB67422546AD8D0040D073 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB67412546AD8D0040D073 /* MapView.swift */; };
 		41BB674A2546AF040040D073 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB67492546AF040040D073 /* CircleImage.swift */; };
@@ -76,8 +80,12 @@
 		412B5F5D254570C000F8A8C0 /* HansongSwiftUIStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HansongSwiftUIStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		412B5F61254570C000F8A8C0 /* HansongSwiftUIStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HansongSwiftUIStudyUITests.swift; sourceTree = "<group>"; };
 		412B5F63254570C000F8A8C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4169F0E82548504400EE2F4B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4169F0ED2548514A00EE2F4B /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		417F820D2546E8340016C8E2 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		417F82122546F0540016C8E2 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		417F82182546F56F0016C8E2 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		417F82202546F5940016C8E2 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		41BB67392546AB0B0040D073 /* SmoothieRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothieRowView.swift; sourceTree = "<group>"; };
 		41BB673F2546AC1A0040D073 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41BB67412546AD8D0040D073 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -157,6 +165,8 @@
 				412B5F40254570BE00F8A8C0 /* ContentView.swift */,
 				41BB673F2546AC1A0040D073 /* README.md */,
 				41BB67862546B4320040D073 /* DemoList.plist */,
+				4169F0E72548502200EE2F4B /* Composing Complex Interfaces */,
+				417F82172546F5310016C8E2 /* DrawingPathsAndShapes */,
 				41BB678C2546BA670040D073 /* BuildingListsAndNavigation */,
 				41BB673E2546ABF00040D073 /* CreatingAndCombiningViews */,
 				41BB67392546AB0B0040D073 /* SmoothieRowView.swift */,
@@ -193,6 +203,24 @@
 				412B5F61254570C000F8A8C0 /* HansongSwiftUIStudyUITests.swift */,
 			);
 			path = HansongSwiftUIStudyUITests;
+			sourceTree = "<group>";
+		};
+		4169F0E72548502200EE2F4B /* Composing Complex Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				4169F0E82548504400EE2F4B /* Home.swift */,
+				4169F0ED2548514A00EE2F4B /* CategoryRow.swift */,
+			);
+			path = "Composing Complex Interfaces";
+			sourceTree = "<group>";
+		};
+		417F82172546F5310016C8E2 /* DrawingPathsAndShapes */ = {
+			isa = PBXGroup;
+			children = (
+				417F82182546F56F0016C8E2 /* Badge.swift */,
+				417F82202546F5940016C8E2 /* HexagonParameters.swift */,
+			);
+			name = DrawingPathsAndShapes;
 			sourceTree = "<group>";
 		};
 		41BB673E2546ABF00040D073 /* CreatingAndCombiningViews */ = {
@@ -393,10 +421,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417F82212546F5940016C8E2 /* HexagonParameters.swift in Sources */,
 				412B5F44254570BE00F8A8C0 /* HansongSwiftUIStudy.xcdatamodeld in Sources */,
+				417F82192546F56F0016C8E2 /* Badge.swift in Sources */,
 				41BB67C42546D0430040D073 /* LandmarkRow.swift in Sources */,
 				417F82132546F0540016C8E2 /* UserData.swift in Sources */,
 				41BB67BA2546C3FE0040D073 /* LandmarkList.swift in Sources */,
+				4169F0E92548504400EE2F4B /* Home.swift in Sources */,
 				41BB67422546AD8D0040D073 /* MapView.swift in Sources */,
 				412B5F3D254570BE00F8A8C0 /* AppDelegate.swift in Sources */,
 				41BB67BF2546C4D00040D073 /* LandmarkDetail.swift in Sources */,
@@ -406,6 +437,7 @@
 				41BB67542546B0500040D073 /* CreatingAndCombiningViews.swift in Sources */,
 				41BB67B02546BBBE0040D073 /* Data.swift in Sources */,
 				412B5F41254570BE00F8A8C0 /* ContentView.swift in Sources */,
+				4169F0EE2548514A00EE2F4B /* CategoryRow.swift in Sources */,
 				41BB67B52546BBF30040D073 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
